@@ -86,10 +86,10 @@ stopword_list = ['수', '일', '있다', '고', '및', '등', '있는', '기자'
 
 
 # TODO: erase Credentials
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/Users/KimJungHwan/Desktop/m-Robo/photobot/test-290712-5c567c6b6d23.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 # TODO: erase token
-token = '1488873575:AAEHBPd8J0duq_mIkUIAECl9N05o3Pht58I'
+token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 bot, chat_ids = get_bot(token)
 
 model = word2vec.Word2Vec.load("1minwords")  # 기본 모델
